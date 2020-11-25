@@ -1,0 +1,7 @@
+一个数，加上100后是某个数的完全平方，再加上168后是另一个数的完全平方，求此数
+import math
+for i in range(-100, 10000):
+    m = int(math.sqrt(i + 100))
+    n = int(math.sqrt(i + 268))
+    if m * m == i + 100 and n * n == i + 268:
+        print(i)
