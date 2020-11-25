@@ -5,3 +5,9 @@ for i in range(-100, 10000):
     n = int(math.sqrt(i + 268))
     if m * m == i + 100 and n * n == i + 268:
         print(i)
+        
+result：
+-99
+21
+261
+1581
